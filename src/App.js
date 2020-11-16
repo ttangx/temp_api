@@ -1,13 +1,9 @@
-import React, { useState } from 'react';
-import RestaurantList from './restaurantList';
-import './App.css';
+import React, { useState } from "react";
+import RestaurantList from "./restaurantList";
+import "./App.css";
 
 function App() {
-
-
-  return (
-    <RestaurantList />
-  )
+  return <RestaurantList />;
 }
 
 export default App;
